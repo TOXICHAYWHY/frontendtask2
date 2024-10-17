@@ -1,0 +1,38 @@
+body{
+    border: 6px  solid white;
+    border-width: 57px;
+    margin-left: 105px;
+
+}
+.home{
+    display: flex;
+    
+}
+.btn{
+    width: 400px;
+    height: 500px;
+}
+.text{
+    display: block;
+    /* text-align: left; */
+    margin-left: 20px;
+}
+.but{
+   background-color: rgb(18, 41, 18);
+   color: white;
+   width: 200px;
+   height: 40px;
+   border-radius: 10px;
+   margin-top: 5px;
+}
+.no{
+    font-size: 34px;
+    color: rgb(43, 63, 43);
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="body"] {
+      width: 100%;
+      /* margin-top: 20px; */
+    }
+  }
